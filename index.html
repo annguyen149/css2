@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ad1198f46c.js" crossorigin="anonymous"></script>
+    <title>CSS2</title>
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+}
+.right {
+    float: right;
+}
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gainsboro;
+}
+.div2 {
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/61086ec373551e86331910e3/0x0.jpg?format=jpg&width=1200);
+    width: 97% ;
+    height: 450px ;
+    color: white;
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+.p  {
+    border: 1px solid gray; 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 20% ;
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    font-size: 20px ;
+}
+h5 a:hover {
+  background-color: gainsboro;
+}
+i a:hover {
+  background-color: gainsboro;
+}
+</style>
+<body>
+    <div>
+    <div>
+        <ul>
+            <li><a href="#logo" style="float: left;"> LOGO </a> </li>
+            <li><a href="#about" class="right"> ABOUT </a></li>
+            <li><a href="#team" class="right"> <span class="fa-solid fa-user"></span> TEAM </a> </li>
+            <li><a href="#work" class="right"><span class="fa-sharp fa-solid fa-table"></span> WORK </a></li>
+            <li><a href="#pricing" class="right"><span class="fa-sharp fa-solid fa-dollar-sign"></span> PRICING </a></li>
+            <li><a href="#contact" class="right"><span class="fa-sharp fa-solid fa-envelope"></span> CONTACT </a></li>
+        </ul>
+    </div>
+    <div id="logo" class="div2">
+        <p style="font-size: 70px;"> Start something that matters </p>
+        <p style="font-size: 20px ;"> Stop wasting valuable time with projects that just isn't you. </p>
+        <h5><a href="#about" class="p"> Learn more and start today </a> </h5>
+    </div>
+    </div>
+</body>
+</html>
